@@ -1,5 +1,5 @@
 <?php
-$firstName = $email = $message = "";
+$name = $email = $message = "";
 $nameErr = $emailErr = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
