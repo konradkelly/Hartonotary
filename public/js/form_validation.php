@@ -1,13 +1,13 @@
 <?php
 $firstName = $email = $message = "";
-$firstNameErr = $emailErr = "";
+$nameErr = $emailErr = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate First Name
-    if (empty($_POST["firstName"])) {
-        $firstNameErr = "First name is required";
+    if (empty($_POST["name"])) {
+        $firstNameErr = "Name is required";
     } else {
-        $firstName = htmlspecialchars($_POST["firstName"]);
+        $firstName = htmlspecialchars($_POST["name"]);
     }
 
     // Validate Email with regex
