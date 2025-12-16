@@ -9,8 +9,9 @@
     <form action="/submit" method="POST">
         <h2>Contact Form</h2>
         
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+        <label for="firstName">First Name *</label>
+  <input type="text" id="firstName" name="firstName" value="<?php echo $firstName; ?>">
+  <span class="error"><?php echo $firstNameErr; ?></span>
         <br><br>
         
         <label for="email">Email:</label>
