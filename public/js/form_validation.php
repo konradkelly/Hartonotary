@@ -20,10 +20,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $emailErr = "Invalid email format";
         }
     }
-
-    // Message is optional
-    if (!empty($_POST["message"])) {
-        $message = htmlspecialchars($_POST["message"]);
-    }
 }
 ?>
