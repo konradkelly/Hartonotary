@@ -5,7 +5,7 @@ $nameErr = $emailErr = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate First Name
     if (empty($_POST["name"])) {
-        $firstNameErr = "Name is required";
+        $nameErr = "Name is required";
     } else {
         $firstName = htmlspecialchars($_POST["name"]);
     }
