@@ -9,7 +9,7 @@
     <form action="/submit" method="POST">
         <h2>Contact Form</h2>
         
-        <label for="name">First Name *</label>
+        <label for="name">First Name</label>
   <input type="text" id="name" name="name" value="<?php echo $name; ?>">
   <span class="error"><?php echo $nameErr; ?></span>
         <br><br>
