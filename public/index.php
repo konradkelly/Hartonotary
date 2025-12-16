@@ -1,3 +1,5 @@
+<?php
+include 'js/form_validation.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +17,7 @@
         <br><br>
         
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <input type="email" id="email" name="email" value="<?php echo $email; ?>" required>
         <br><br>
         
         <label for="phone">Phone:</label>
