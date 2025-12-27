@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="#0F3524"/>
+  <!-- Inner ring -->
+  <circle cx="16" cy="16" r="11" fill="none" stroke="#C8A64B" stroke-width="1.5"/>
+  <!-- Document icon -->
+  <path d="M12 8 L12 24 L22 24 L22 12 L18 8 Z" fill="#C8A64B"/>
+  <path d="M18 8 L18 12 L22 12" fill="none" stroke="#0F3524" stroke-width="1.5"/>
+  <!-- Document lines -->
+  <line x1="14" y1="15" x2="20" y2="15" stroke="#0F3524" stroke-width="1"/>
+  <line x1="14" y1="18" x2="20" y2="18" stroke="#0F3524" stroke-width="1"/>
+  <line x1="14" y1="21" x2="18" y2="21" stroke="#0F3524" stroke-width="1"/>
+</svg>
